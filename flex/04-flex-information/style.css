@@ -12,6 +12,31 @@ img {
   font-weight: 900;
 }
 
+/* My solution */
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.plants.container{
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: center;
+}
+
+.plant{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 180px;
+  align-items: center;
+  justify-content: center;
+}
+
 /* do not edit this footer */
 .footer {
   position: fixed;
